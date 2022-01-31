@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: "/icons/128.png",
+  icon: "",
 
   // The name of your website. Present alongside your icon.
   title: "📁NanWang'Cloud",
@@ -43,5 +43,22 @@ module.exports = {
   protectedRoutes: [
     "/🌞 Private folder/u-need-a-password",
     "/🥟 Some test files/Protected route"
+  ],
+
+  // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
+  email: "",
+
+  // [OPTIONAL] This is an array of names and links for setting your social information and links.
+  // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
+  // you provide. See the documentation for details.
+  links: [
+    {
+      "name": "GitHub",
+      "link": ""
+    },
+    {
+      "name": "Telegram",
+      "link": ""
+    }
   ]
 }
