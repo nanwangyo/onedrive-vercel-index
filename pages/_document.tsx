@@ -7,7 +7,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta name="description" content="OneDrive Vercel Index" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="https://gsp0.baidu.com/5aAHeD3nKhI2p27j8IqW0jdnxx1xbK/tb/editor/images/client/image_emoticon25.png" />
+          <link rel="bookmark" href="https://gsp0.baidu.com/5aAHeD3nKhI2p27j8IqW0jdnxx1xbK/tb/editor/images/client/image_emoticon25.png" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           {siteConfig.googleFontLinks.map(link => (
